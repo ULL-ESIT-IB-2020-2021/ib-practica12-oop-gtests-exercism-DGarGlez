@@ -72,7 +72,7 @@ Complejo Complejo::operator + (Complejo a){
 
 Complejo Complejo::operator + (const int numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     float numeroF = ((float) (numero));
     resultado.setReal(getReal() + (numeroF));
     return(resultado);
@@ -80,14 +80,14 @@ Complejo Complejo::operator + (const int numero){
 
 Complejo Complejo::operator + (const float numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     resultado.setReal(getReal() + numero);
     return(resultado);
 }
 
 Complejo Complejo::operator + (const double numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     resultado.setReal(getReal() + ((float) numero));
     return(resultado);
 }
@@ -101,7 +101,7 @@ Complejo Complejo::operator - (Complejo a){
 
 Complejo Complejo::operator - (const int numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     float numeroF = ((float) (numero));
     resultado.setReal(getReal() - (numeroF));
     return(resultado);
@@ -109,14 +109,14 @@ Complejo Complejo::operator - (const int numero){
 
 Complejo Complejo::operator - (const float numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     resultado.setReal(getReal() - numero);
     return(resultado);
 }
 
 Complejo Complejo::operator - (const double numero){
     Complejo resultado;
-    resultado.setImaginary(getImaginary();
+    resultado.setImaginary(getImaginary());
     resultado.setReal(getReal() - ((float) numero));
     return(resultado);
 }
