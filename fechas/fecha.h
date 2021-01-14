@@ -28,7 +28,7 @@ public:
 
     // Setters y getters de la clase Date 
     void setDay(int dia);
-    /*const*/ int getDay(void);
+    int getDay(void);
     void setMonth(int mes);
     int getMonth(void);
     void setYear(int ano);
